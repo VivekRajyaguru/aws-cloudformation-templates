@@ -1,0 +1,13 @@
+Resources:
+  MyTemplateBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: PublicReadWrite
+      WebsiteConfiguration:
+        IndexDocument: index.html
+        ErrorDocument: error.html
+      VersioningConfiguration:
+        Status: Enabled
+      Tags:
+        - Key: 'Author'
+          Value: 'Vivek Rajyaguru'

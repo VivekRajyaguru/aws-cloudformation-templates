@@ -1,0 +1,3 @@
+Create Stack
+
+aws cloudformation create-stack --template-body <location-to-template-file> --stack-name <name>
